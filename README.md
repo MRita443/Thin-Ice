@@ -9,7 +9,7 @@ Criar uma adaptação do minigame do Clube Penguin Thin Ice
 
 ### Descrição
 
-*---É um jogo de puzzle em que o objetivo é percorrer um labirinto de modo a passar pelo maior número de espaços possível. Não é possível passar pelo mesmo espaço mais que uma vez, a não que ser que o quadrado tenha coloração distintiva, caso em que poderá ser percorrido duas vezes. O final do nível é dado quando o utilizador atinge o espaço vermelho. Para desbloquear certos espaços pode ser necessário ter previamente recolhido uma chave. O jogador perde se se encontrar rodeado por espaços pelos quais já passou o número máximo de vezes. A pontuação final do nível depende da percentagem de espaços percorridos relativamente aos espaços totais disponíveis.
+É um jogo de puzzle em que o objetivo é percorrer um labirinto de modo a passar pelo maior número de espaços possível. Não é possível passar pelo mesmo espaço mais que uma vez, a não que ser que o quadrado tenha coloração distintiva, caso em que poderá ser percorrido duas vezes. O final do nível é dado quando o utilizador atinge o espaço vermelho. Para desbloquear certos espaços pode ser necessário ter previamente recolhido uma chave. O jogador perde se se encontrar rodeado por espaços pelos quais já passou o número máximo de vezes. A pontuação final do nível depende da percentagem de espaços percorridos relativamente aos espaços totais disponíveis.
 
 ### UI
 
