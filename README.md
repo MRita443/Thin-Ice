@@ -13,7 +13,7 @@ Thin Ice um jogo de puzzle em que o objetivo é percorrer um labirinto de modo a
 
 ### UI
 
-![UI](ui.png)
+![UI](UI.png)
 
 ### Pacotes
 
