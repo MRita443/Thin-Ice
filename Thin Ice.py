@@ -223,7 +223,7 @@ victory_zoom_1 = pygame.image.load('Resources/Final zoom.png')
 animation_frame_num = {'Puffle': 1, 'Death': 1, 'Key': 1}
 
 #Sounds
-pygame.mixer.music.load('Club Penguin OST - Thin Ice Theme.mp3')
+pygame.mixer.music.load('Resources/Club Penguin OST - Thin Ice Theme.mp3')
 
 victory = pygame.mixer.Sound('Resources/Victory.mp3')
 bonk = pygame.mixer.Sound('Resources/Bonk.mp3')
