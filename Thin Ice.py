@@ -182,53 +182,53 @@ levels = [
 ]
 
 #Sprites
-puffle_img_1 = pygame.image.load('Puff1.png')
-puffle_img_2 = pygame.image.load('Puff2.png')
-puffle_img_3 = pygame.image.load('Puff3.png')
-puffle_img_4 = pygame.image.load('Puff4.png')
-puffle_img_5 = pygame.image.load('Puff5.png')
+puffle_img_1 = pygame.image.load('Resources/Puff1.png')
+puffle_img_2 = pygame.image.load('Resources/Puff2.png')
+puffle_img_3 = pygame.image.load('Resources/Puff3.png')
+puffle_img_4 = pygame.image.load('Resources/Puff4.png')
+puffle_img_5 = pygame.image.load('Resources/Puff5.png')
 
 puffle_img = [(150, "Puffle"), puffle_img_1, puffle_img_2, puffle_img_3, puffle_img_4, puffle_img_5]
 
-puffle_death_img_1 = pygame.image.load('PuffDeath1.png')
-puffle_death_img_2 = pygame.image.load('PuffDeath2.png')
-puffle_death_img_3 = pygame.image.load('PuffDeath3.png')
-puffle_death_img_4 = pygame.image.load('PuffDeath4.png')
-puffle_death_img_5 = pygame.image.load('PuffDeath5.png')
-puffle_death_img_6 = pygame.image.load('PuffDeath6.png')
-puffle_death_img_7 = pygame.image.load('PuffDeath7.png')
-puffle_death_img_8 = pygame.image.load('PuffDeath8.png')
-puffle_death_img_9 = pygame.image.load('PuffDeath9.png')
-puffle_death_img_10 = pygame.image.load('PuffDeath10.png')
-puffle_death_img_11 = pygame.image.load('PuffDeath11.png')
-puffle_death_img_12 = pygame.image.load('PuffDeath12.png')
+puffle_death_img_1 = pygame.image.load('Resources/PuffDeath1.png')
+puffle_death_img_2 = pygame.image.load('Resources/PuffDeath2.png')
+puffle_death_img_3 = pygame.image.load('Resources/PuffDeath3.png')
+puffle_death_img_4 = pygame.image.load('Resources/PuffDeath4.png')
+puffle_death_img_5 = pygame.image.load('Resources/PuffDeath5.png')
+puffle_death_img_6 = pygame.image.load('Resources/PuffDeath6.png')
+puffle_death_img_7 = pygame.image.load('Resources/PuffDeath7.png')
+puffle_death_img_8 = pygame.image.load('Resources/PuffDeath8.png')
+puffle_death_img_9 = pygame.image.load('Resources/PuffDeath9.png')
+puffle_death_img_10 = pygame.image.load('Resources/PuffDeath10.png')
+puffle_death_img_11 = pygame.image.load('Resources/PuffDeath11.png')
+puffle_death_img_12 = pygame.image.load('Resources/PuffDeath12.png')
 
 puffle_death_img = [(80, "Death"), puffle_death_img_1, puffle_death_img_2, puffle_death_img_3, puffle_death_img_4, puffle_death_img_5, puffle_death_img_6, puffle_death_img_7, puffle_death_img_8, puffle_death_img_9, puffle_death_img_10, puffle_death_img_11, puffle_death_img_12]
 
-block_img = pygame.image.load('Bloco.png')
-finalblock_img = pygame.image.load('Bloco final.png')
-lockblock_img = pygame.image.load('Bloco unlockable.png')
-doubleblock_img = pygame.image.load('Bloco duplo.png')
+block_img = pygame.image.load('Resources/Bloco.png')
+finalblock_img = pygame.image.load('Resources/Bloco final.png')
+lockblock_img = pygame.image.load('Resources/Bloco unlockable.png')
+doubleblock_img = pygame.image.load('Resources/Bloco duplo.png')
 
-key_img_1 = pygame.image.load('Key.png')
-key_img_2 = pygame.image.load('Key_2.png')
-key_img_3 = pygame.image.load('Key_3.png')
-key_img_4 = pygame.image.load('Key_4.png')
-key_img_5 = pygame.image.load('Key_5.png')
+key_img_1 = pygame.image.load('Resources/Key.png')
+key_img_2 = pygame.image.load('Resources/Key_2.png')
+key_img_3 = pygame.image.load('Resources/Key_3.png')
+key_img_4 = pygame.image.load('Resources/Key_4.png')
+key_img_5 = pygame.image.load('Resources/Key_5.png')
 
 key_img = [(150, "Key"), key_img_1, key_img_2, key_img_3, key_img_4, key_img_5]
 
-victory_zoom_1 = pygame.image.load('Final zoom.png')
+victory_zoom_1 = pygame.image.load('Resources/Final zoom.png')
 
 animation_frame_num = {'Puffle': 1, 'Death': 1, 'Key': 1}
 
 #Sounds
 pygame.mixer.music.load('Club Penguin OST - Thin Ice Theme.mp3')
 
-victory = pygame.mixer.Sound('Victory.mp3')
-bonk = pygame.mixer.Sound('Bonk.mp3')
-game_over_sound = pygame.mixer.Sound('Game Over.wav')
-diving = pygame.mixer.Sound('Diving.mp3')
+victory = pygame.mixer.Sound('Resources/Victory.mp3')
+bonk = pygame.mixer.Sound('Resources/Bonk.mp3')
+game_over_sound = pygame.mixer.Sound('Resources/Game Over.wav')
+diving = pygame.mixer.Sound('Resources/Diving.mp3')
 
 pygame.mixer.music.set_volume(0.1)
 victory.set_volume(0.1)
@@ -237,9 +237,9 @@ game_over_sound.set_volume(0.1)
 diving.set_volume(0.1)
 
 #Fonts
-game_over_font = pygame.font.Font("AlegreyaSans-Black.ttf", 72, bold=True, italic=False)
-game_over_text_font = pygame.font.Font("AlegreyaSans-Black.ttf", 32, bold=False, italic=False)
-main_menu_font = pygame.font.Font("AlegreyaSans-Black.ttf", 28, bold=True, italic=False)
+game_over_font = pygame.font.Font("Resources/AlegreyaSans-Black.ttf", 72, bold=True, italic=False)
+game_over_text_font = pygame.font.Font("Resources/AlegreyaSans-Black.ttf", 32, bold=False, italic=False)
+main_menu_font = pygame.font.Font("Resources/AlegreyaSans-Black.ttf", 28, bold=True, italic=False)
 
 #General
 
