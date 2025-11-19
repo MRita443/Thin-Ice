@@ -237,9 +237,10 @@ game_over_sound.set_volume(0.1)
 diving.set_volume(0.1)
 
 #Fonts
-game_over_font = pygame.font.Font("Resources/AlegreyaSans-Black.ttf", 72, bold=True, italic=False)
-game_over_text_font = pygame.font.Font("Resources/AlegreyaSans-Black.ttf", 32, bold=False, italic=False)
-main_menu_font = pygame.font.Font("Resources/AlegreyaSans-Black.ttf", 28, bold=True, italic=False)
+game_over_font = pygame.font.Font("Resources/AlegreyaSans-Black.ttf", 72)
+game_over_text_font = pygame.font.Font("Resources/AlegreyaSans-Black.ttf", 32)
+main_menu_font = pygame.font.Font("Resources/AlegreyaSans-Black.ttf", 28)
+main_menu_font.bold = True
 
 #General
 
